@@ -93,7 +93,7 @@ pagination.pagerSize = 5
 
       [languages.en.params.logo]
         logoText = "Kinaetron"
-        logoHomeLink = "/"
+        logoHomeLink = "/blog"
 
 [caches]
   [caches.images]
