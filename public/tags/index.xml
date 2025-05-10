@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Kinaetron</title>
-    <link>//localhost:1313/tags/</link>
+    <link>//localhost:1313///blog/tags/</link>
     <description>Recent content in Tags on Kinaetron</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 10 May 2025 10:36:28 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313///blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Game Development</title>
-      <link>//localhost:1313/tags/game-development/</link>
+      <link>//localhost:1313///blog/tags/game-development/</link>
       <pubDate>Sat, 10 May 2025 10:36:28 +0100</pubDate>
-      <guid>//localhost:1313/tags/game-development/</guid>
+      <guid>//localhost:1313///blog/tags/game-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Intro</title>
-      <link>//localhost:1313/tags/intro/</link>
+      <link>//localhost:1313///blog/tags/intro/</link>
       <pubDate>Sat, 10 May 2025 10:36:28 +0100</pubDate>
-      <guid>//localhost:1313/tags/intro/</guid>
+      <guid>//localhost:1313///blog/tags/intro/</guid>
       <description></description>
     </item>
     <item>
       <title>Moonworks</title>
-      <link>//localhost:1313/tags/moonworks/</link>
+      <link>//localhost:1313///blog/tags/moonworks/</link>
       <pubDate>Sat, 10 May 2025 10:36:28 +0100</pubDate>
-      <guid>//localhost:1313/tags/moonworks/</guid>
+      <guid>//localhost:1313///blog/tags/moonworks/</guid>
       <description></description>
     </item>
   </channel>
