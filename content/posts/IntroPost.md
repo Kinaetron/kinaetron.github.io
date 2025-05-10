@@ -21,7 +21,7 @@ So what is Moonworks ? It's a fairly low level game development framework that I
 
 So why didn't I go down the typical path of using Unity ?
 
-- Fully featured game engines like that are usually developed by large public traded companies and large publicy companies put their shareholders above their consumer base. I've had this to myself before with the discontinuation of XNA and watched it happen with the Flash.
+- Fully featured game engines like that are usually developed by large public traded companies and large publicy companies put their shareholders above their consumer base. I've had this play out to myself before with the discontinuation of XNA and watched it happen with the Flash.
 
 Ok so why not Godot, It's open source and a lot of people using it say it's great.
 
