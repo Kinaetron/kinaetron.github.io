@@ -50,7 +50,7 @@ I would specifically point you to these articles on there
 
 ## Discords
 
-You can also join the discords listed below. Great places to keep up with the latest news, help other users out, and ask questions.
+You can also join the discords listed below. Great places to keep up with the latest news, help other users out and ask questions.
 
 - [Moonworks](https://discord.gg/ujhwdkHmhN)
 - [SDL](https://discord.com/invite/BwpFGBWsv8)
