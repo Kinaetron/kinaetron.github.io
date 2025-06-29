@@ -2,31 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Kinaetron</title>
-    <link>//localhost:1313///Blog/tags/</link>
+    <link>/Blog/tags/</link>
     <description>Recent content in Tags on Kinaetron</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 May 2025 10:36:28 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313///Blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Jun 2025 10:36:28 +0100</lastBuildDate>
+    <atom:link href="/Blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Game Development</title>
-      <link>//localhost:1313///Blog/tags/game-development/</link>
-      <pubDate>Sat, 10 May 2025 10:36:28 +0100</pubDate>
-      <guid>//localhost:1313///Blog/tags/game-development/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Intro</title>
-      <link>//localhost:1313///Blog/tags/intro/</link>
-      <pubDate>Sat, 10 May 2025 10:36:28 +0100</pubDate>
-      <guid>//localhost:1313///Blog/tags/intro/</guid>
+      <link>/Blog/tags/game-development/</link>
+      <pubDate>Fri, 06 Jun 2025 10:36:28 +0100</pubDate>
+      <guid>/Blog/tags/game-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Moonworks</title>
-      <link>//localhost:1313///Blog/tags/moonworks/</link>
+      <link>/Blog/tags/moonworks/</link>
+      <pubDate>Fri, 06 Jun 2025 10:36:28 +0100</pubDate>
+      <guid>/Blog/tags/moonworks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Resources</title>
+      <link>/Blog/tags/resources/</link>
+      <pubDate>Fri, 06 Jun 2025 10:36:28 +0100</pubDate>
+      <guid>/Blog/tags/resources/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C</title>
+      <link>/Blog/tags/c/</link>
+      <pubDate>Sat, 10 May 2025 19:15:47 +0100</pubDate>
+      <guid>/Blog/tags/c/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Setup</title>
+      <link>/Blog/tags/setup/</link>
+      <pubDate>Sat, 10 May 2025 19:15:47 +0100</pubDate>
+      <guid>/Blog/tags/setup/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Intro</title>
+      <link>/Blog/tags/intro/</link>
       <pubDate>Sat, 10 May 2025 10:36:28 +0100</pubDate>
-      <guid>//localhost:1313///Blog/tags/moonworks/</guid>
+      <guid>/Blog/tags/intro/</guid>
       <description></description>
     </item>
   </channel>

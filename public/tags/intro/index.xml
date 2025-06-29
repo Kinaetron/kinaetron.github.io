@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Intro on Kinaetron</title>
-    <link>//localhost:1313///Blog/tags/intro/</link>
+    <link>/Blog/tags/intro/</link>
     <description>Recent content in Intro on Kinaetron</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 10 May 2025 10:36:28 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313///Blog/tags/intro/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/Blog/tags/intro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Intro Post</title>
-      <link>//localhost:1313///Blog/posts/intropost/</link>
+      <link>/Blog/posts/intropost/</link>
       <pubDate>Sat, 10 May 2025 10:36:28 +0100</pubDate>
-      <guid>//localhost:1313///Blog/posts/intropost/</guid>
+      <guid>/Blog/posts/intropost/</guid>
       <description>&lt;p&gt;So I&amp;rsquo;m Kinaetron. I&amp;rsquo;ve been developing games for an embarrsinginly long time and I&amp;rsquo;ve been ranting and raving about the total lack of written articles about game development for a good while now, so here I am actually writing stuff down.&lt;/p&gt;&#xA;&lt;p&gt;For the time being I want to write about game development projects I&amp;rsquo;ve been doing with a game dev framework called Moonworks.&lt;/p&gt;&#xA;&lt;p&gt;So what is Moonworks ? It&amp;rsquo;s a fairly low level game development framework that I&amp;rsquo;ve been playing around for the last few months you can read up the details about it &lt;a href=&#34;https://github.com/MoonsideGames/MoonWorks&#34;&gt;here&lt;/a&gt;. I found out about while playing Samurai Gunn 2, a game developed by one of my favourite indie game developers Beau Blyth (Teknopants). Moonworks is being used to develop the new version of Samurai Gunn 2, the current one up on steam was made in Game Maker Studio.&lt;/p&gt;</description>
     </item>
   </channel>

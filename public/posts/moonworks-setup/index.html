@@ -1,69 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="///Blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=//Blog/livereload" data-no-instant defer></script>
+<head>
   
     <title>Moonworks Setup :: Kinaetron</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="" />
-<meta name="keywords" content=", " />
+<meta name="description" content="How to setup a new Moonworks project" />
+<meta name="keywords" content="Moonworks, Setup, Game Development, C" />
 
   <meta name="robots" content="noodp" />
 
-<link rel="canonical" href="//localhost:1313///Blog/posts/moonworks-setup/" />
+<link rel="canonical" href="/Blog/posts/moonworks-setup/" />
 
 
 
 
 
   
-  <link rel="stylesheet" href="//localhost:1313///Blog/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+  <link rel="stylesheet" href="/Blog/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
 
   
-  <link rel="stylesheet" href="//localhost:1313///Blog/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+  <link rel="stylesheet" href="/Blog/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
 
   
-  <link rel="stylesheet" href="//localhost:1313///Blog/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+  <link rel="stylesheet" href="/Blog/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
 
   
-  <link rel="stylesheet" href="//localhost:1313///Blog/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+  <link rel="stylesheet" href="/Blog/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
 
   
-  <link rel="stylesheet" href="//localhost:1313///Blog/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+  <link rel="stylesheet" href="/Blog/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
 
   
-  <link rel="stylesheet" href="//localhost:1313///Blog/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+  <link rel="stylesheet" href="/Blog/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
 
   
-  <link rel="stylesheet" href="//localhost:1313///Blog/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+  <link rel="stylesheet" href="/Blog/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
 
   
-  <link rel="stylesheet" href="//localhost:1313///Blog/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+  <link rel="stylesheet" href="/Blog/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
 
   
-  <link rel="stylesheet" href="//localhost:1313///Blog/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+  <link rel="stylesheet" href="/Blog/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
 
   
-  <link rel="stylesheet" href="//localhost:1313///Blog/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+  <link rel="stylesheet" href="/Blog/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
 
   
-  <link rel="stylesheet" href="//localhost:1313///Blog/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+  <link rel="stylesheet" href="/Blog/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
 
   
-  <link rel="stylesheet" href="//localhost:1313///Blog/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+  <link rel="stylesheet" href="/Blog/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
 
   
-  <link rel="stylesheet" href="//localhost:1313///Blog/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+  <link rel="stylesheet" href="/Blog/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
 
 
-<link rel="stylesheet" href="//localhost:1313/Blog/terminal.css">
+<link rel="stylesheet" href="/Blog/terminal.css">
 
 
 
 
-<link rel="shortcut icon" href="//localhost:1313/Blog/favicon.png">
-<link rel="apple-touch-icon" href="//localhost:1313/Blog/apple-touch-icon.png">
+<link rel="shortcut icon" href="/Blog/favicon.png">
+<link rel="apple-touch-icon" href="/Blog/apple-touch-icon.png">
 
 
 <meta name="twitter:card" content="summary" />
@@ -78,13 +78,13 @@
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Moonworks Setup">
-<meta property="og:description" content="" />
-<meta property="og:url" content="//localhost:1313///Blog/posts/moonworks-setup/" />
+<meta property="og:description" content="How to setup a new Moonworks project" />
+<meta property="og:url" content="/Blog/posts/moonworks-setup/" />
 <meta property="og:site_name" content="Kinaetron" />
 
   
   
-  <meta property="og:image" content="//localhost:1313/Blog/">
+  <meta property="og:image" content="/Blog/">
 
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="627">
@@ -132,16 +132,20 @@
     
 <article class="post">
   <h1 class="post-title">
-    <a href="//localhost:1313///Blog/posts/moonworks-setup/">Moonworks Setup</a>
+    <a href="/Blog/posts/moonworks-setup/">Moonworks Setup</a>
   </h1>
   <div class="post-meta"><time class="post-date">2025-05-10</time></div>
 
   
     <span class="post-tags">
       
-      #<a href="//localhost:1313/Blog/tags/"></a>&nbsp;
+      #<a href="/Blog/tags/moonworks/">Moonworks</a>&nbsp;
       
-      #<a href="//localhost:1313/Blog/tags/"></a>&nbsp;
+      #<a href="/Blog/tags/setup/">Setup</a>&nbsp;
+      
+      #<a href="/Blog/tags/game-development/">Game Development</a>&nbsp;
+      
+      #<a href="/Blog/tags/c/">C</a>&nbsp;
       
     </span>
   
@@ -150,7 +154,138 @@
 
   
 
-  <div class="post-content"></div>
+  <div class="post-content"><div>
+        <h2 id="intro">Intro<a href="#intro" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>I&rsquo;ve been tinkering around With the Moonworks Framework for last few months. I found this to be a great development framework and is pretty much perfect for the kind of games I want to develop. Saying all that though, I do find that the documentation for new people is pretty slim of the ground, so I thought it would be a good idea to write up something that would help other people on their journey to using it.</p>
+<p>What I&rsquo;m going to do here though is try my best to fill in general gaps of knowledge for people who are coming over from higher level game frameworks like FNA, XNA and Unity, or people who have never really made a game before.</p>
+<h2 id="visual-studio-code">Visual Studio Code<a href="#visual-studio-code" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>So what this isn&rsquo;t going to be is a tutorial series for C#, there are plenty around and all of them are way more robust and detailed than anything I would be able to supply here. Personally I would go over to Mircosoft&rsquo;s official video series for beginners, which you can find <a href="https://www.youtube.com/watch?v=9THmGiSPjBQ&amp;list=PLdo4fOcmZ0oULFjxrOagaERVAMbmG20Xe">here</a>. Saying that though it doesn&rsquo;t do the best job at showing you how to install the toolset you&rsquo;ll need to follow the series. That video series uses Visual Studio Code, it&rsquo;s nice, relatively light and most importantly cross platform. You&rsquo;ll also need to .NET SDK which is the library that&rsquo;ll let you write and build C# code.</p>
+<ul>
+<li>Download Visual Studio Code from <a href="https://code.visualstudio.com/download">here</a></li>
+<li>Download SDK 9.0 from <a href="https://dotnet.microsoft.com/en-us/download/dotnet">here</a></li>
+</ul>
+<p>Now open up VSCode, hit Ctrl+Shift+X to go to the extensions view, then search for &ldquo;C# Dev Kit&rdquo;. Install the kit from the marketplace and let it download. Once that&rsquo;s done you&rsquo;re ready to go.</p>
+<p>There are several other resources that&rsquo;ll get you caught up to C# if you look around the internet, if my particular suggestion doesn&rsquo;t suite your learning style. Once you&rsquo;ve gotten through your C# resource of choice, come back here to learn Moonworks.</p>
+<h2 id="git">Git<a href="#git" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Git is a project management system for programming projects, which allows users to submit their own code updates and get updates other users make to a programming project you&rsquo;re all contributing to. 9 times out of 10 all this code is stored on a website called Github. Github serves as a decent backup of your coding projects too, so this is useful to use even if you&rsquo;re working by yourself.</p>
+<p>Again I won&rsquo;t get into the weeds of this, for the same reasons I didn&rsquo;t for C#, but I would say this is as important to learn before picking up Moonworks as C# is. Personally I would go with this tutorial series to get a grip on this, which you can find <a href="https://www.atlassian.com/git">here</a>.</p>
+<p>Again plenty of resources around the web teaching this, so if my choice of learning material isn&rsquo;t to your liking, please pick up something else.</p>
+<h2 id="download-moonworks">Download Moonworks<a href="#download-moonworks" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Select somewhere you want to download Moonworks to, I would suggest somewhere that will be easy for your game projects to access it from. Once you selected somewhere either</p>
+<ul>
+<li>Use this command for Git git clone &ndash;recursive <a href="https://github.com/MoonsideGames/MoonWorks">https://github.com/MoonsideGames/MoonWorks</a></li>
+</ul>
+<h2 id="download-native-libraries">Download Native Libraries<a href="#download-native-libraries" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Moonworks uses several native libraries for various pieces of functionality, such as window management, input, and audio output.
+Here&rsquo;s what we use and why:</p>
+<ul>
+<li><a href="https://github.com/flibitijibibo/SDL3-CS">SDL3</a> Window management, Input, Graphics</li>
+<li><a href="https://github.com/MoonsideGames/IRO">IRO</a> Image Loading</li>
+<li><a href="https://github.com/FNA-XNA/FAudio">FAudio</a> Audio</li>
+<li><a href="https://github.com/MoonsideGames/Wellspring">Wellsping</a> Font Rendering</li>
+<li><a href="https://github.com/MoonsideGames/dav1dfile">dav1dfile</a> Compressed Video</li>
+</ul>
+<p>You can find the libraries precompiled <a href="https://moonside.games/files/moonlibs.tar.gz">here</a>. This contains all of the native libraries for Windows, Linux and Mac.</p>
+<h2 id="create-a-project">Create a Project<a href="#create-a-project" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Pick your favorite C# IDE and spin up a new console application in it. You&rsquo;ll need to add a direct reference to Moonworks project in your new project you can do this via running the command in command prompt or powershell</p>
+<ul>
+<li><code>dotnet sln add &lt;Rest of Path&gt;/Moonworks/MoonWorks.csproj</code></li>
+</ul>
+<p>or you can go into your IDE and just add it directly via their GUI.</p>
+<p>You&rsquo;ll also need to copy the native libraries you downloaded in the earlier step each time you build the project. You can do this opening up a text editor and copy the xml below. Take note that at each section where I wrote Rest of Path, you need to point it to the folder (moonlibs) where those native binaries are. Now save this file as CopyMoonlibs.targets in the same folder where the project is at the top level you should see a csproj / sln file in there.</p>
+<pre tabindex="0"><code>&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;
+&lt;Project xmlns=&#34;http://schemas.microsoft.com/developer/msbuild/2003&#34;&gt;
+
+	&lt;Target Name=&#34;Runtime ID&#34;  AfterTargets=&#34;Build&#34;&gt;
+    	&lt;Message Text=&#34;Runtime ID: $(RuntimeIdentifier)&#34; Importance=&#34;high&#34;/&gt;
+	&lt;/Target&gt;
+
+	&lt;ItemGroup Condition=&#34;$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Windows)))&#34;&gt;
+		&lt;Content Include=&#34;*Rest of Path*\moonlibs\win64\*.*&#34;&gt;
+			&lt;Link&gt;%(RecursiveDir)%(Filename)%(Extension)&lt;/Link&gt;
+			&lt;CopyToOutputDirectory&gt;Always&lt;/CopyToOutputDirectory&gt;
+		&lt;/Content&gt;
+	&lt;/ItemGroup&gt;
+	&lt;ItemGroup Condition=&#34;$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Linux)))&#34;&gt;
+		&lt;Content Include=&#34;*Rest of Path*\moonlibs\lib64\*.*&#34;&gt;
+			&lt;Link&gt;%(RecursiveDir)%(Filename)%(Extension)&lt;/Link&gt;
+			&lt;CopyToOutputDirectory&gt;Always&lt;/CopyToOutputDirectory&gt;
+		&lt;/Content&gt;
+	&lt;/ItemGroup&gt;
+	&lt;ItemGroup Condition=&#34;$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::OSX)))&#34;&gt;
+		&lt;Content Include=&#34;*Rest of Path*\moonlibs\macos\*.*&#34;&gt;
+			&lt;Link&gt;%(RecursiveDir)%(Filename)%(Extension)&lt;/Link&gt;
+			&lt;CopyToOutputDirectory&gt;Always&lt;/CopyToOutputDirectory&gt;
+		&lt;/Content&gt;
+	&lt;/ItemGroup&gt;
+&lt;/Project&gt;
+</code></pre><p>Then open up your .csproj file and add <code>&lt;Import Project=&quot;.\CopyMoonlibs.targets&quot; /&gt;</code> just before <code>&lt;/PropertyGroup&gt;</code> So now you should have a VSCode project open with a file called Program.cs. First make sure your project builds correctly.</p>
+<p>Press the Run and Debug button and that should just build and run</p>
+<p>Create a new file in your project called ExampleGame and copy this section of code into it.</p>
+<pre tabindex="0"><code>using MoonWorks;
+using MoonWorks.Graphics;
+
+namespace *Your project name*;
+
+public class ExampleGame : Game
+{
+    public ExampleGame(
+        AppInfo appInfo,
+        WindowCreateInfo windowCreateInfo,
+        FramePacingSettings framePacingSettings
+        ) : base(
+            appInfo,
+            windowCreateInfo,
+            framePacingSettings,
+            ShaderFormat.SPIRV | ShaderFormat.DXIL | ShaderFormat.MSL | ShaderFormat.DXBC)
+    {
+    }
+
+    protected override void Update(TimeSpan delta) { }
+
+    protected override void Draw(double alpha)
+    {
+        CommandBuffer cmdbuf = GraphicsDevice.AcquireCommandBuffer();
+        Texture swapchainTexture = cmdbuf.AcquireSwapchainTexture(MainWindow);
+        if (swapchainTexture != null)
+        {
+            var renderPass = cmdbuf.BeginRenderPass(
+                new ColorTargetInfo(swapchainTexture, Color.CornflowerBlue)
+            );
+            cmdbuf.EndRenderPass(renderPass);
+        }
+        GraphicsDevice.Submit(cmdbuf);
+    }
+}
+</code></pre><p>Finally open up your Program.cs and copy in the below code</p>
+<pre tabindex="0"><code>using MoonWorks;
+
+namespace *Your project name*;
+
+internal class Program
+{
+    static void Main()
+    {
+        var windowCreateInfo = new WindowCreateInfo(
+             &#34;Example Game&#34;,
+             1280,
+             720,
+             ScreenMode.Windowed
+         );
+
+        var framePacingSettings = FramePacingSettings.CreateLatencyOptimized(60);
+
+        var game = new ExampleGame(
+            new AppInfo(&#34;Example Game&#34;, &#34;ExampleGame&#34;),
+            windowCreateInfo,
+            framePacingSettings);
+
+        game.Run();
+    }
+}
+</code></pre><p>Press the Run and Debug button again and that should just show up an empty blue screen. Congratulations, you&rsquo;ve just built and run your first Moonworks game project !</p>
+
+      </div></div>
 
   
     
@@ -161,9 +296,15 @@
   </div>
   <div class="pagination__buttons">
     
+      <a href="/Blog/posts/moonworks-resources/" class="button inline prev">
+        &lt; [<span class="button__text">Moonworks Resources</span>]
+      </a>
     
     
-      <a href="//localhost:1313///Blog/posts/intropost/" class="button inline next">
+      ::
+    
+    
+      <a href="/Blog/posts/intropost/" class="button inline next">
          [<span class="button__text">Intro Post</span>] &gt;
       </a>
     
@@ -198,7 +339,7 @@
 
 
 
-<script type="text/javascript" src="///Blog/bundle.min.js"></script>
+<script type="text/javascript" src="/Blog/bundle.min.js"></script>
 
 
 
