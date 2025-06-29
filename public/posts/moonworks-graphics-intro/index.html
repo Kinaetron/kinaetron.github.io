@@ -282,13 +282,16 @@ float4 otherVec = someFloat.xxxx + anotherFloat.yxzy;
       &#34;main&#34;,
       ShaderCross.ShaderFormat.HLSL,
       ShaderStage.Fragment);
-</code></pre><p>Going a bit more in depth of the variables being passed in order to create a shader we have.
-device / GraphicsDevice, this manages all graphics-related concerns. An instance of this is created in the game class.
-storage / RootTitleStorage, this Moonworks read only IO management class that is designed for portability..
-filepath / &ldquo;Content/Shaders/Vertex.vert.hlsl&rdquo;, this is the relative position of the file that needs to be compiled.
-entrypoint / “main”, is the entrypoint method of the method in the shader.
-shaderFormat / ShaderCross.ShaderFormat.HLSL, is what type of shader is being used.
-shaderStage / ShaderStage.Vertex is what stage of the shader this is.</p>
+</code></pre><p>Going a bit more in depth of the variables being passed in order to create a shader we have.</p>
+<ul>
+<li>device / GraphicsDevice, this manages all graphics-related concerns. An instance of this is created in the game class.</li>
+<li>storage / RootTitleStorage, this Moonworks read only IO management class that is designed for portability..</li>
+<li>filepath / &ldquo;Content/Shaders/Vertex.vert.hlsl&rdquo;, this is the relative position of the file that needs to be compiled.</li>
+<li>entrypoint / “main”, is the entrypoint method of the method in the shader.</li>
+<li>shaderFormat / ShaderCross.ShaderFormat.HLSL, is what type of shader is being used.</li>
+<li>shaderStage / ShaderStage.Vertex is what stage of the shader this is.</li>
+</ul>
+<p>So while I won&rsquo;t go too much into detail here now, but there are ways of compiling shaders in advance and not during the runtime of the game as we&rsquo;re doing here. Doing it during runtime isn&rsquo;t always ideal and sometimes forbidden on some platforms.</p>
 <h2 id="graphics-pipeline-creation">Graphics Pipeline Creation<a href="#graphics-pipeline-creation" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <p>In this section we’ll prepare how the information is going to go through the graphics pipeline.</p>
 <pre tabindex="0"><code>[StructLayout(LayoutKind.Sequential)]

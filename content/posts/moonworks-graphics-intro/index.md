@@ -225,12 +225,14 @@ Then we'll also add this too to compile the fragment shader we wrote.
 ```
 
 Going a bit more in depth of the variables being passed in order to create a shader we have.
-device / GraphicsDevice, this manages all graphics-related concerns. An instance of this is created in the game class. 
-storage / RootTitleStorage, this Moonworks read only IO management class that is designed for portability..
-filepath / "Content/Shaders/Vertex.vert.hlsl", this is the relative position of the file that needs to be compiled.
-entrypoint / “main”, is the entrypoint method of the method in the shader.
-shaderFormat / ShaderCross.ShaderFormat.HLSL, is what type of shader is being used.
-shaderStage / ShaderStage.Vertex is what stage of the shader this is.
+- device / GraphicsDevice, this manages all graphics-related concerns. An instance of this is created in the game class. 
+- storage / RootTitleStorage, this Moonworks read only IO management class that is designed for portability..
+- filepath / "Content/Shaders/Vertex.vert.hlsl", this is the relative position of the file that needs to be compiled.
+- entrypoint / “main”, is the entrypoint method of the method in the shader.
+- shaderFormat / ShaderCross.ShaderFormat.HLSL, is what type of shader is being used.
+- shaderStage / ShaderStage.Vertex is what stage of the shader this is.
+
+So while I won't go too much into detail here now, but there are ways of compiling shaders in advance and not during the runtime of the game as we're doing here. Doing it during runtime isn't always ideal and sometimes forbidden on some platforms. 
 
 ## Graphics Pipeline Creation
 
