@@ -43,6 +43,8 @@ At the very minimum you'll need to prepare what is called Vertex data. Vertex da
 
 Below you'll see an abstract representation of the stages of the graphics pipeline. Note that these blue sections represent sections where we can inject our own shaders.
 
+![Image of Graphics Pipeline](pipeline.png)
+
 ## Shaders 
 
 Shaders are short programs that render graphics data. As you can see from the previous image these programs run on different parts of the graphics pipeline. At this point in time we’re only going to be dealing with Vertex Shaders and Fragment Shaders also known as Pixel Shaders in some circles. We’re not going to touch Geometry Shaders as we don’t need them in this article. 
@@ -326,7 +328,9 @@ This will actually create the pipeline that will be used in the duration of this
 
 Normalized device coordinates is a small space where the x, y and z values go from the range of -1.0 to 1.0. Any coordinates that fall outside that range will be discarded / clipped and won’t be visible on your screen. 
 
-Unlike usual screen coordinates the positive y-axis points in the up-direction and the (0, 0) coordinates are at the centre of the graph, instead of the top left. 
+Unlike usual screen coordinates the positive y-axis points in the up-direction and the (0, 0) coordinates are at the centre of the graph, instead of the top left.
+
+![NDC](ndc.png)
 
 ## Sending The Information Across
 

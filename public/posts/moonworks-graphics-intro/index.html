@@ -155,7 +155,6 @@
   <div class="post-content"><div>
         <h2 id="intro">Intro<a href="#intro" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <p>Now that the basics of setting up a Moonworks project is out of the way we can start jumping into the juicer stuff. In this article we&rsquo;re going to render a triangle, this task is considered the graphics programming equivalent to the hello world. But before that I&rsquo;m going to try and give enough context that you&rsquo;ll have some understanding of what&rsquo;s happening under the hood.</p>
-<p>Straight off the bat a lot of the information and images for this article are being grabbed from <a href="https://learnopengl.com">learnopengl.com</a>, it&rsquo;s a fantastic resource and you definitely should check it.</p>
 <p>How did graphics programmers land on rendering a triangle as the most basic operation? Triangles at this point are graphics programming standards for rendering. Most of the time when you see a more complex object in a 3D movie or video game it&rsquo;s just thousands upon thousands of triangles put together to make that new object. So you&rsquo;re probably wondering why triangles specifically though, why not a rectangle or a <a href="https://www.youtube.com/watch?v=thOifuHs6eY">hexagon</a> instead? Well, they are easy to work with as they only have 3 points in space, they can be used to make other primitive shapes easily too, which makes computation pretty fast and simple in comparison to other polygons that could have been used. It&rsquo;s efficient too, modern GPUs (Graphics Processing Unit) are designed specifically to draw triangles quickly.</p>
 <p>Ok so in that previous sentence there I mentioned something called a GPU, being an acronym for Graphics Processing Unit. A GPU is a computation chip akin to the CPU, but instead of doing general information processing it&rsquo;s designed specifically to do computational calculations on image information before rendering those images onto a screen.</p>
 <p>Every computer has some sort of GPU. The GPU is either on the same chip as the CPU becoming what is called an APU (Accelerated Processing Unit) typically devices such as phones, lower end non windows, laptops, game consoles and macbooks will have an APU. High end desktops and windows laptops will usually have dedicated GPU&rsquo;s. On the desktop side this comes down to the allowance of users to swap in and out parts as they please, on laptops it’s kind of the same reason but the manufacturer puts together the machine and you can’t really do much afterwards.</p>
@@ -177,11 +176,7 @@
 <p>The Graphics Pipeline is the process of taking information passed from the CPU to the GPU. Transforming that information into 3D coordinates and displaying that information onto your 2D screen.</p>
 <p>At the very minimum you&rsquo;ll need to prepare what is called Vertex data. Vertex data is for now the position in 3D space you&rsquo;ll need to pass along in order to make a triangle. In our program we&rsquo;re passing on 3 points, since that is all we&rsquo;ll need to draw a triangle on screen.</p>
 <p>Below you&rsquo;ll see an abstract representation of the stages of the graphics pipeline. Note that these blue sections represent sections where we can inject our own shaders.</p>
-<p><img src="///Blog/posts/moonworks-graphics-intro/pipeline.png" alt="Image of Graphics Pipline">
-<figure><img src="///Blog/posts/moonworks-graphics-intro/pipeline.png"
-    alt="Image of Graphics Pipline">
-</figure>
-</p>
+<p><img src="pipeline.png" alt="Image of Graphics Pipeline"></p>
 <h2 id="shaders">Shaders<a href="#shaders" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <p>Shaders are short programs that render graphics data. As you can see from the previous image these programs run on different parts of the graphics pipeline. At this point in time we’re only going to be dealing with Vertex Shaders and Fragment Shaders also known as Pixel Shaders in some circles. We’re not going to touch Geometry Shaders as we don’t need them in this article.</p>
 <p>A vertex is a computational representation of 3D space on a computer. Think of the cartesian coordinate system you learned of at school, but with an extra dimension called Z. So a typical vertex would be represented as { X = 100, Y = 50, Z = 200 }.  Vertex shaders as the name implies does information transformation on the vertex information we initially pass in from the CPU. Vertex shaders are the first section of the pipeline that is done and can be altered, then that data is passed onto the fragment, so a fragment shader works on a singular vertex at a time.</p>
@@ -350,11 +345,8 @@ FragmentShader = fragmentShader
 </code></pre><p>This will actually create the pipeline that will be used in the duration of this program.</p>
 <h2 id="normalized-device-coordinates-ndc">Normalized Device Coordinates (NDC)<a href="#normalized-device-coordinates-ndc" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <p>Normalized device coordinates is a small space where the x, y and z values go from the range of -1.0 to 1.0. Any coordinates that fall outside that range will be discarded / clipped and won’t be visible on your screen.</p>
-<figure><img src="///Blog/posts/moonworks-graphics-intro/ndc.png"
-    alt="Image of NDC Coordinate System">
-</figure>
-
 <p>Unlike usual screen coordinates the positive y-axis points in the up-direction and the (0, 0) coordinates are at the centre of the graph, instead of the top left.</p>
+<p><img src="ndc.png" alt="NDC"></p>
 <h2 id="sending-the-information-across">Sending The Information Across<a href="#sending-the-information-across" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <p>At this point we’ve got the pipeline created and ready and all we need to do is send the data across to the memory accessed by the GPU to be ready to draw the triangle.</p>
 <p>We start off by creating the points of the triangle we want to create.</p>
