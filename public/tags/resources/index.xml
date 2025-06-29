@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resources on Kinaetron</title>
-    <link>/Blog/tags/resources/</link>
+    <link>//localhost:1313///Blog/tags/resources/</link>
     <description>Recent content in Resources on Kinaetron</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 06 Jun 2025 10:36:28 +0100</lastBuildDate>
-    <atom:link href="/Blog/tags/resources/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313///Blog/tags/resources/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Moonworks Resources</title>
-      <link>/Blog/posts/moonworks-resources/</link>
+      <link>//localhost:1313///Blog/posts/moonworks-resources/</link>
       <pubDate>Fri, 06 Jun 2025 10:36:28 +0100</pubDate>
-      <guid>/Blog/posts/moonworks-resources/</guid>
+      <guid>//localhost:1313///Blog/posts/moonworks-resources/</guid>
       <description>&lt;p&gt;This article goes over all of the resources available for Moonworks at the time of writing. Please also keep in mind that Evan Hemsley the developer of Moonworks was also one of the main developers of SDL_GPU which the  Moonworks Graphics API pretty much maps to. So there will be a lot of cross over information between the two frameworks.&lt;/p&gt;&#xA;&lt;h2 id=&#34;moonworks-graphics-tests&#34;&gt;Moonworks Graphics Tests&lt;/h2&gt;&#xA;&lt;p&gt;So the author of Moonworks Evan wrote up a nice little project showing new users how to do standard graphics programming operations in Moonworks, such as getting a clear window up, rendering a triangle, rendering a texture and a whole host of other graphics programming examples.&lt;/p&gt;</description>
     </item>
   </channel>

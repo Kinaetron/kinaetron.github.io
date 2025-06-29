@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Intro on Kinaetron</title>
-    <link>//localhost:1313///Blog/tags/intro/</link>
-    <description>Recent content in Intro on Kinaetron</description>
+    <title>Graphics Programming on Kinaetron</title>
+    <link>//localhost:1313///Blog/tags/graphics-programming/</link>
+    <description>Recent content in Graphics Programming on Kinaetron</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 29 Jun 2025 14:37:10 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313///Blog/tags/intro/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313///Blog/tags/graphics-programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Moonworks Graphics Intro</title>
       <link>//localhost:1313///Blog/posts/moonworks-graphics-intro/</link>
       <pubDate>Sun, 29 Jun 2025 14:37:10 +0100</pubDate>
       <guid>//localhost:1313///Blog/posts/moonworks-graphics-intro/</guid>
       <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Now that the basics of setting up a Moonworks project is out of the way we can start jumping into the juicer stuff. In this article we&amp;rsquo;re going to render a triangle, this task is considered the graphics programming equivalent to the hello world. But before that I&amp;rsquo;m going to try and give enough context that you&amp;rsquo;ll have some understanding of what&amp;rsquo;s happening under the hood.&lt;/p&gt;&#xA;&lt;p&gt;How did graphics programmers land on rendering a triangle as the most basic operation? Triangles at this point are graphics programming standards for rendering. Most of the time when you see a more complex object in a 3D movie or video game it&amp;rsquo;s just thousands upon thousands of triangles put together to make that new object. So you&amp;rsquo;re probably wondering why triangles specifically though, why not a rectangle or a &lt;a href=&#34;https://www.youtube.com/watch?v=thOifuHs6eY&#34;&gt;hexagon&lt;/a&gt; instead? Well, they are easy to work with as they only have 3 points in space, they can be used to make other primitive shapes easily too, which makes computation pretty fast and simple in comparison to other polygons that could have been used. It&amp;rsquo;s efficient too, modern GPUs (Graphics Processing Unit) are designed specifically to draw triangles quickly.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Intro Post</title>
-      <link>//localhost:1313///Blog/posts/intropost/</link>
-      <pubDate>Sat, 10 May 2025 10:36:28 +0100</pubDate>
-      <guid>//localhost:1313///Blog/posts/intropost/</guid>
-      <description>&lt;p&gt;So I&amp;rsquo;m Kinaetron. I&amp;rsquo;ve been developing games for an embarrsinginly long time and I&amp;rsquo;ve been ranting and raving about the total lack of written articles about game development for a good while now, so here I am actually writing stuff down.&lt;/p&gt;&#xA;&lt;p&gt;For the time being I want to write about game development projects I&amp;rsquo;ve been doing with a game dev framework called Moonworks.&lt;/p&gt;&#xA;&lt;p&gt;So what is Moonworks ? It&amp;rsquo;s a fairly low level game development framework that I&amp;rsquo;ve been playing around for the last few months you can read up the details about it &lt;a href=&#34;https://github.com/MoonsideGames/MoonWorks&#34;&gt;here&lt;/a&gt;. I found out about while playing Samurai Gunn 2, a game developed by one of my favourite indie game developers Beau Blyth (Teknopants). Moonworks is being used to develop the new version of Samurai Gunn 2, the current one up on steam was made in Game Maker Studio.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

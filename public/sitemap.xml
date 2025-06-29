@@ -2,42 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/Blog/tags/game-development/</loc>
+    <loc>//localhost:1313///Blog/tags/graphics-programming/</loc>
+    <lastmod>2025-06-29T14:37:10+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313///Blog/tags/intro/</loc>
+    <lastmod>2025-06-29T14:37:10+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313///Blog/</loc>
+    <lastmod>2025-06-29T14:37:10+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313///Blog/tags/moonworks/</loc>
+    <lastmod>2025-06-29T14:37:10+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313///Blog/posts/moonworks-graphics-intro/</loc>
+    <lastmod>2025-06-29T14:37:10+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313///Blog/posts/</loc>
+    <lastmod>2025-06-29T14:37:10+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313///Blog/tags/</loc>
+    <lastmod>2025-06-29T14:37:10+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313///Blog/tags/game-development/</loc>
     <lastmod>2025-06-06T10:36:28+01:00</lastmod>
   </url><url>
-    <loc>/Blog/</loc>
+    <loc>//localhost:1313///Blog/posts/moonworks-resources/</loc>
     <lastmod>2025-06-06T10:36:28+01:00</lastmod>
   </url><url>
-    <loc>/Blog/tags/moonworks/</loc>
+    <loc>//localhost:1313///Blog/tags/resources/</loc>
     <lastmod>2025-06-06T10:36:28+01:00</lastmod>
   </url><url>
-    <loc>/Blog/posts/moonworks-resources/</loc>
-    <lastmod>2025-06-06T10:36:28+01:00</lastmod>
-  </url><url>
-    <loc>/Blog/posts/</loc>
-    <lastmod>2025-06-06T10:36:28+01:00</lastmod>
-  </url><url>
-    <loc>/Blog/tags/resources/</loc>
-    <lastmod>2025-06-06T10:36:28+01:00</lastmod>
-  </url><url>
-    <loc>/Blog/tags/</loc>
-    <lastmod>2025-06-06T10:36:28+01:00</lastmod>
-  </url><url>
-    <loc>/Blog/tags/c/</loc>
+    <loc>//localhost:1313///Blog/tags/c/</loc>
     <lastmod>2025-05-10T19:15:47+01:00</lastmod>
   </url><url>
-    <loc>/Blog/posts/moonworks-setup/</loc>
+    <loc>//localhost:1313///Blog/posts/moonworks-setup/</loc>
     <lastmod>2025-05-10T19:15:47+01:00</lastmod>
   </url><url>
-    <loc>/Blog/tags/setup/</loc>
+    <loc>//localhost:1313///Blog/tags/setup/</loc>
     <lastmod>2025-05-10T19:15:47+01:00</lastmod>
   </url><url>
-    <loc>/Blog/tags/intro/</loc>
+    <loc>//localhost:1313///Blog/posts/intropost/</loc>
     <lastmod>2025-05-10T10:36:28+01:00</lastmod>
   </url><url>
-    <loc>/Blog/posts/intropost/</loc>
-    <lastmod>2025-05-10T10:36:28+01:00</lastmod>
-  </url><url>
-    <loc>/Blog/categories/</loc>
+    <loc>//localhost:1313///Blog/categories/</loc>
   </url>
 </urlset>

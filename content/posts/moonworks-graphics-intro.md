@@ -46,6 +46,7 @@ At the very minimum you'll need to prepare what is called Vertex data. Vertex da
 Below you'll see an abstract representation of the stages of the graphics pipeline. Note that these blue sections represent sections where we can inject our own shaders.
 
 ![Image of Graphics Pipline](pipeline.png)
+{{< figure src="pipeline.png" alt="Image of Graphics Pipline" >}}
 
 ## Shaders 
 
@@ -330,7 +331,7 @@ This will actually create the pipeline that will be used in the duration of this
 
 Normalized device coordinates is a small space where the x, y and z values go from the range of -1.0 to 1.0. Any coordinates that fall outside that range will be discarded / clipped and won’t be visible on your screen.
 
-![Image of NDC Coordinate System](ndc.png)
+{{< figure src="ndc.png" alt="Image of NDC Coordinate System" >}}
 
 Unlike usual screen coordinates the positive y-axis points in the up-direction and the (0, 0) coordinates are at the centre of the graph, instead of the top left. 
 
