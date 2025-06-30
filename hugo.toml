@@ -1,4 +1,4 @@
-baseurl = "/Blog"
+baseurl = "/"
 languageCode = "en-us"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
@@ -93,7 +93,7 @@ pagination.pagerSize = 5
 
       [languages.en.params.logo]
         logoText = "Kinaetron"
-        logoHomeLink = "/Blog"
+        logoHomeLink = "/"
 
 [caches]
   [caches.images]
