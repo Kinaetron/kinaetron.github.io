@@ -44,8 +44,8 @@ I would specifically point you to these articles on there
 - [How I put a game on Steam with a custom engine in 2 months](https://www.youtube.com/watch?v=YDgiUlXFg3o). [Cassandra Lugo(prophetgoddess)](https://blood.church/) Made a video talking about the advantages of making games without a large game engine. The game she talks about in that video [break.up](http://break.up) was written in Moonworks and she goes into some detail how she accomplishes this in that video.
 
 ## Articles
-- [Moonworks Setup article](https://kinaetron.github.io/Blog/posts/moonworks-setup/). So I wrote up an article going into detail about how to set up a Moonworks project from scratch.
-- [Moonworks Graphics Programming Intro](https://kinaetron.github.io/Blog/posts/moonworks-graphics-intro/). I wrote an article about the basics of graphics programming using Moonworks.
+- [Moonworks Setup article](https://kinaetron.github.io/posts/moonworks-setup/). So I wrote up an article going into detail about how to set up a Moonworks project from scratch.
+- [Moonworks Graphics Programming Intro](https://kinaetron.github.io/posts/moonworks-graphics-intro/). I wrote an article about the basics of graphics programming using Moonworks.
 - [Making a simple shoot-em-up with FNA and MoonTools.ECS](https://blood.church/posts/2023-09-25-shmup-tutorial/). Cassandra goes into detail about the basics of making a game using the combination of FNA and Moontools.ECS. This article relies on an older version of Moontools so everything isn’t completely up to date, but it’s a great read nevertheless.
 - [SDL_GPU Documentation](https://wiki.libsdl.org/SDL3/CategoryGPU). As I mentioned at the beginning Moonworks Graphics API is pretty much a C# mapping of SDL_GPU so looking through the documentation should help greatly.
 - [Mesh rendering with MoonWorks](https://allyourfaultforever.com/posts/sdl3-static-meshes/). Chip Collier wrote a article about rendering a basic mesh in Moonworks.
