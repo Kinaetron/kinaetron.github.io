@@ -99,7 +99,7 @@ CreateCapped, This will run the game at a specific framerate.
 CreateLatencyOptimized, This will also run the game at a specified framerate, but it will also keep the frametime the same as well.
 
 ```
- var framePacingSettings = FramePacingSettings.CreateLatencyOptimized(60);
+ var framePacingSettings = FramePacingSettings.CreateLatencyOptimized(60, 60);
 ```
 
 This is the setting we’re going to be using for our project, if you want to use one of the other please feel free too.

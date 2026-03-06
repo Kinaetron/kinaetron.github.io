@@ -133,6 +133,10 @@ public class ExampleGame : Game
         }
         GraphicsDevice.Submit(cmdbuf);
     }
+
+    protected override void Step()
+    {
+    }
 }
 ```
 
@@ -154,7 +158,7 @@ internal class Program
              ScreenMode.Windowed
          );
 
-        var framePacingSettings = FramePacingSettings.CreateLatencyOptimized(60);
+        var framePacingSettings = FramePacingSettings.CreateLatencyOptimized(60, 60);
 
         var game = new ExampleGame(
             new AppInfo("Example Game", "ExampleGame"),
